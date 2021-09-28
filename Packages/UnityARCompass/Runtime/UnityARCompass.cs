@@ -1,3 +1,4 @@
+// #undef  UNITY_EDITOR
 using UnityEngine;
 
 namespace UnityARCompass
@@ -28,7 +29,7 @@ namespace UnityARCompass
 #if UNITY_EDITOR
             UpdateRotation(trueHeadingDebug);
 #else
-            if (Input.compass.timestamp > lastCompassTimestamp)
+            if (Input.compass.timestamp > _lastCompassTimestamp)
             {
                 UpdateRotation(Input.compass.trueHeading);
             }
