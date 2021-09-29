@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e545e4b3dbc434d83fbd24e3599c167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  compass: {fileID: 1777813035}
+  compassIOS: {fileID: 1777813035}
   compassObject: {fileID: 1495521597}
 --- !u!114 &1777813035
 MonoBehaviour:
@@ -310,7 +310,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 446e7266ee8349ccb8c5d913dcb1fafe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trueHeadingDebug: 0
 --- !u!4 &1777813036
 Transform:
   m_ObjectHideFlags: 0

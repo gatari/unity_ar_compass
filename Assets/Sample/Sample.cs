@@ -4,12 +4,12 @@ namespace Sample
 {
     public class Sample : MonoBehaviour
     {
-        [SerializeField] private UnityARCompass.UnityARCompass compass;
+        [SerializeField] private UnityARCompass.ARCompassIOS arCompassIOS;
         [SerializeField] private Transform compassObject;
 
         private void Update()
         {
-            compassObject.rotation = compass.TrueHeadingRotation;
+            compassObject.rotation = arCompassIOS.TrueHeadingRotation;
         }
     }
 }
